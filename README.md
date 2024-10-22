@@ -5,7 +5,7 @@ This repository contains two scripts that use Facebook's MusicGen model to gener
 ## Overview
 
 This repository features two different scripts:
-1. **generate_music_large.py**: Uses the **MusicGen Large** model for music generation based on a text prompt.
+1. **generate_music.py**: Uses the **MusicGen Large** model for music generation based on a text prompt.
 2. **generate_music_melody.py**: Uses the **MusicGen Melody** model, which is optimized for melody-conditioned music generation, also based on a text prompt.
 
 Both scripts use PyTorch and the HuggingFace `transformers` library to load the models, process the text, and generate music. The generated music is saved as a `.wav` file.
